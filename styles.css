@@ -1,0 +1,36 @@
+.container {
+    flex: auto;
+    align-items: center;
+    align-content: center;
+    width: 400px;
+}
+.linha {
+    flex: content;
+}
+
+.desc {
+    width:max-content;
+    align-self: flex-start;
+}
+
+.placa {
+    width:max-content;
+    align-self: flex-start;
+}
+
+.input_nome {
+    width: 200px;
+    align-self:flex-end;
+
+}
+
+.input_placa {
+    width: 200px;
+}
+
+
+.debug {
+    border: 1px;
+    border-color: blue;
+    border-style: dashed;
+}
